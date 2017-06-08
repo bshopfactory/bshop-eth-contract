@@ -1,0 +1,27 @@
+{
+  "contract_name": "Artist",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "artists",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600b57fe5b5b60898061001a6000396000f300606060405263ffffffff60e060020a600035041663069dab8f81146020575bfe5b3415602757fe5b6039600160a060020a0360043516604b565b60408051918252519081900360200190f35b600060208190529081526040902054815600a165627a7a72305820e07b9569075c89548704a23a990f77708cea830028cd70df10650f2fd4f916a70029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1496945406789
+}
