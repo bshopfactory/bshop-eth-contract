@@ -1,9 +1,18 @@
 pragma solidity ^0.4.4;
 
-contract Artist {
-	mapping(address => uint) public artists;
+/*
+  @title Artist Contract
+*/
 
-	function Artist(string name) {
+contract Membership {
+  struct Artist {
+    string firstName;
+    string middleName;
+    string lastName;
+    string nickName;
+    string email;
+    address wallet;
+  }
 
-	}
+  mapping (address => uint256) artists;
 }

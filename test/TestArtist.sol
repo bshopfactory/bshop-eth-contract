@@ -4,8 +4,9 @@ import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
 import "../contracts/Artist.sol";
 
-contract TestArtist {
+contract TestMembership {
+  function testCreateArtistUser() {
+  }
   function testRegistrationArtist() {
-    Artist artist = Artist("Sangwoo Joo");
   }
 }
