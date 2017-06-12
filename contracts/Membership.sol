@@ -1,7 +1,8 @@
 pragma solidity ^0.4.4;
 
 /*
-  @title Artist Contract
+  @title Contract Membership
+  Artist should contract with the blockchain network to be a Membership.
 */
 
 contract Membership {
@@ -15,4 +16,9 @@ contract Membership {
   }
 
   mapping (address => uint256) artists;
+
+  function addArtist(address _owner) external constant returns (bool) {
+    artists[_owner] = msg.sender;
+    return true;
+  }
 }
